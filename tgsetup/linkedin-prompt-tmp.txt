@@ -10,6 +10,775 @@ Web Browser Content: ###
 ###
 """
 
+
+"""
+Given the following simplified text description of what's visible in a browser window, complete the task. If you cannot complete the task, return nothing.
+
+Note (1): when outputting links you should only output comma separated links. Do not output any other text. 
+
+Task: Go through all the linkedin urls
+
+Web Browser Content: ###
+We use cookies to track usage and preferences.I Understand (https://www.hbf.co.uk)
+
+
+
+
+
+
+
+                                About
+                                
+
+
+About Us (https://www.hbf.co.uk/about/)
+Our Team (https://www.hbf.co.uk/about/#staff)
+The Board (https://www.hbf.co.uk/about/#staff)
+Membership (https://www.hbf.co.uk/about/membership/)
+Careers With HBF (https://www.hbf.co.uk/about/careers-with-hbf/)
+Annual Reports (https://www.hbf.co.uk/about/annual-reports/)
+Contact Us (https://www.hbf.co.uk/page/23270)
+
+
+
+Join the HBF (https://www.hbf.co.uk/about/membership/)
+
+
+
+
+
+
+
+
+
+ (https://www.hbf.co.uk/)
+
+
+
+
+Toggle navigation
+
+
+
+
+
+
+
+ (https://www.hbf.co.uk#search)
+
+
+
+
+
+ codrops menu 
+
+
+
+
+
+ (https://www.hbf.co.uk/)
+
+
+
+Policy (https://www.hbf.co.uk/page/22833)
+
+
+
+
+Policy and Wider Work ProgramBuilding Safety (https://www.hbf.co.uk/policy/building-safety-discussions-with-government-on-remediation/)National New Homes Customer Satisfaction Survey (CSS) (https://www.hbf.co.uk/policy/policy-and-wider-work-program/customer-satisfaction-survey/)Deposit unlock (https://www.hbf.co.uk/deposit-unlock/)Digital identity (https://www.hbf.co.uk/policy/digital-identity/)Reports & publications (https://www.hbf.co.uk/policy/policy-and-wider-work-program/hbf-reports-and-publications/)New housing pipeline (https://www.hbf.co.uk/policy/policy-and-wider-work-program/new-housing-pipeline/)New Homes Week (https://www.hbf.co.uk/policy/new-homes-week/)Help to Buy (https://www.hbf.co.uk/policy/policy-and-wider-work-program/help-buy/)Consumer Code for homebuilders (https://www.hbf.co.uk/policy/policy-and-wider-work-program/consumer-code-home-builders/)2020s vision for the home building industry (https://www.hbf.co.uk/policy/strategy-2020/)Key MessagesParliamentary briefing (https://www.hbf.co.uk/policy/parliamentary-briefing/)Technical Information & Policy (https://www.hbf.co.uk/policy/technical-information-policy/)NTSC (https://www.hbf.co.uk/policy/technical-policy/national-technical-committee/)Upcoming meetings (https://www.hbf.co.uk/policy/technical-information-policy/)Technical groups (https://www.hbf.co.uk/policy/technical-information-policy/technical-groups/)Technical consultations, reports, & updates (https://www.hbf.co.uk/policy/technical-information-policy/)Shared information (https://www.hbf.co.uk/policy/technical-information-policy/)Planning Policy (https://www.hbf.co.uk/policy/planning-policy/)Local planning (https://www.hbf.co.uk/policy/planning-policy/local-planning/)National planning (https://www.hbf.co.uk/policy/planning-policy/)Wales (https://www.hbf.co.uk/policy/hbfwales/)Wales planning (https://www.hbf.co.uk/policy/hbfwales/wales-planning/)Wales technical (https://www.hbf.co.uk/policy/technical-information-policy/technical-groups/regional-technical-groups/wales/)Health & Safety (https://www.hbf.co.uk/policy/health-safety/)Health & Safety (https://www.hbf.co.uk/policy/health-safety/)Sector guidance notes (https://www.hbf.co.uk/policy/health-safety/sector-guidance-notes/)RIDDOR data collection (https://www.hbf.co.uk/policy/health-safety/riddor-data-collection/)Health & Safety meetings (https://www.hbf.co.uk/policy/health-safety/health-and-safety-meetings/)Information shared (https://www.hbf.co.uk/policy/health-safety/shared-knowledge/)Mental Health AwarenessMental Health Awareness in home building (https://www.hbf.co.uk/policy/mental-health-awareness-home-building/)Mental Health Awareness resources (https://www.hbf.co.uk/policy/mental-health-awareness-home-building/mental-health-awareness-resources/)Older Policy Work (https://www.hbf.co.uk/policy/other-policies-new/)Affordable Housing (2007-2015) (https://www.hbf.co.uk/policy/other-policies-new/affordable-housing/)Barker review (2003-2004) (https://www.hbf.co.uk/policy/other-policies-new/barker-review/)Building for Life 12 (2012, revised in 2014) (https://www.hbf.co.uk/policy/other-policies-new/bfl12/)Callcutt review of housebuilding delivery (2007) (https://www.hbf.co.uk/policy/other-policies-new/callcutt-review-of-housebuilding-delivery/)House Building Careers (2015) (https://www.hbf.co.uk/policy/other-policies-new/careers-skills/)Housing Standards Review  (2013-2015) (https://www.hbf.co.uk/policy/other-policies-new/housing-standards-review/)Innovate for Homes (2007-2013) (https://www.hbf.co.uk/policy/other-policies-new/innovate-for-homes-home-builders-federation/)OFT Housebuilding Market Study (2007-2008) (https://www.hbf.co.uk/policy/other-policies-new/oft-market-study-housebuilding-industry/)NewBuy (2012) (https://www.hbf.co.uk/policy/other-policies-new/newbuy/).
+
+
+
+
+ (https://www.hbf.co.uk/news/housing-pipeline-report-q4-2022-report-published-april-2023/)
+
+
+13 Apr, 2023
+
+
+                Housing pipeline report - Q4 2022 report - Published April 2023
+                
+             (https://www.hbf.co.uk/news/housing-pipeline-report-q4-2022-report-published-april-2023/)
+
+
+
+
+
+
+
+
+ /cbp-hrsub-inner 
+ 
+ /cbp-hrsub 
+
+
+Skills Partnership (https://www.hbf.co.uk/page/23159)
+
+
+
+
+Home Building Skills Partnership (https://www.hbf.co.uk/home-building-skills-partnership/)Future Talent Network (https://www.hbf.co.uk/home-building-skills-partnership/future-talent-network/)Home Building Skills Pledge (https://www.hbf.co.uk/home-building-skills-partnership/home-building-skills-pledge/)HomeSkilled Newsletter (https://www.hbf.co.uk/home-building-skills-partnership/homeskilled-newsletter/)Diversity & Inclusion (https://www.hbf.co.uk/home-building-skills-partnership/diversity-and-inclusion/)Career Attraction (https://www.hbf.co.uk/home-building-skills-partnership/career-attraction/)Home Building Career Ambassadors (https://www.hbf.co.uk/home-building-skills-partnership/career-attraction/home-building-career-ambassadors/)Pathways into Home Building Careers (https://www.hbf.co.uk/home-building-skills-partnership/career-attraction/pathways-construction/)T Levels (https://www.hbf.co.uk/home-building-skills-partnership/career-attraction/t-levels/)Kickstart Scheme (https://www.hbf.co.uk/home-building-skills-partnership/career-attraction/dwp-kickstart-scheme/)Skills & Supply Chain Engagement (https://www.hbf.co.uk/home-building-skills-partnership/skills-supply-chain-engagement/)Skills Frameworks (https://www.hbf.co.uk/home-building-skills-partnership/skills-supply-chain-engagement/skills-and-training-frameworks/)Home Builders Visitor Card (https://www.hbf.co.uk/home-building-skills-partnership/skills-supply-chain-engagement/home-builders-visitor-card/)Apprenticeship Programme (https://www.hbf.co.uk/home-building-skills-partnership/skills-supply-chain-engagement/apprenticeship-programme/)Influencing the Supply Chain (https://www.hbf.co.uk/home-building-skills-partnership/skills-supply-chain-engagement/influencing-supply-chain/)Improving Skills in Brickwork (https://www.hbf.co.uk/home-building-skills-partnership/skills-supply-chain-engagement/skills-and-training-frameworks/brickwork-masterclass/)Heat Pumps Installer Course (https://www.hbf.co.uk/home-building-skills-partnership/skills-supply-chain-engagement/heat-pumps-installer-course-coming-soon/)- (https://www.hbf.co.uk/)
+
+
+
+
+ (https://www.hbf.co.uk/news/hbf-mental-health-survey-report-2022/)
+
+
+26 Aug, 2022
+
+
+                HBF Mental Health Survey Report 2022
+                
+             (https://www.hbf.co.uk/news/hbf-mental-health-survey-report-2022/)
+
+
+
+
+
+ (https://housebuildingcareers.org.uk/)
+
+
+
+ /cbp-hrsub-inner 
+ 
+ /cbp-hrsub 
+
+
+Members (https://www.hbf.co.uk/page/23159)
+
+
+
+
+Member Briefings (https://www.hbf.co.uk/members/member-briefings/)Member Communications (https://www.hbf.co.uk/members/member-communications/)Weekly News Summary (https://www.hbf.co.uk/members/member-communications/weekly-news-summary/)Wales Weekly News Summary (https://www.hbf.co.uk/members/member-communications/wales-weekly-news-summary/)Chairman's Update (https://www.hbf.co.uk/members/member-communications/chairmans-monthly-update/)Housebuilder Magazine (https://www.hbf.co.uk/media-centre/housebuilder-magazine/) (https://www.hbf.co.uk/future-talent-network/)Member Resources (https://www.hbf.co.uk/members/member-resources/)Audit Assistant Desktop App (https://www.hbf.co.uk/members/member-resources/hbf-audit-assistant-desktop-app/)Brexit: Guidance and resources following the end of the transition period (https://www.hbf.co.uk/members/member-resources/brexit-guidance-and-resources-following-end-transition-period/)CSS logos, guidelines, photos and merchandise (https://www.hbf.co.uk/members/member-resources/css-logo-downloads-merchandise/)CML Disclosure of Incentives Form (https://www.hbf.co.uk/members/member-resources/cml-disclosure-incentives-form/)Diversity & Inclusion (https://www.hbf.co.uk/members/member-resources/diversity-and-inclusion/)Fact Sheets (Image Campaign) (https://www.hbf.co.uk/members/member-resources/fact-sheets-image-campaign/)New Homes Week (https://www.hbf.co.uk/members/member-resources/new-homes-week-2023/)Skills Partnership Attract Campaign (https://www.hbf.co.uk/policy/skills-partnership-attract-campaign/)Slips, Trips and Falls (https://www.hbf.co.uk/members/member-resources/slips-trips-and-falls/)House building return to work - media lines/Q&A (https://www.hbf.co.uk/members/member-resources/house-building-return-work-media-lines-q-and/)Brexit: Guidance and resources following the end of the transition period (https://www.hbf.co.uk/members/member-resources/brexit-guidance-and-resources-following-end-transition-period/) (https://www.hbf.co.uk/about/membership/)
+
+
+ /cbp-hrsub-inner 
+ 
+ /cbp-hrsub 
+
+
+Library (https://www.hbf.co.uk/page/23203)
+
+
+
+
+Publications & Reports (https://www.hbf.co.uk/library/publications-reports-home-builders-federation/)Latest Reports (https://www.hbf.co.uk/page/23214/#tab-tab-1)Housing Pipeline Report (https://www.hbf.co.uk/page/23214/#tab-tab-3)Response & Submissions (https://www.hbf.co.uk/library/responses-submissions/)Consultation Responses (https://www.hbf.co.uk/library/responses-submissions/consultation-responses/)Budgets & Pre-Budget Reports (https://www.hbf.co.uk/library/responses-submissions/budgets-pre-budget-reports/)Media Centre (https://www.hbf.co.uk/library/media-centre/)National Press Releases (https://www.hbf.co.uk/library/media-centre/)Regional Press Releases (https://www.hbf.co.uk/page/23211/#tab-tab-2)Member Briefings (https://www.hbf.co.uk/library/member-briefings/)Member Communications (https://www.hbf.co.uk/library/member-communications/)Technical (https://www.hbf.co.uk/library/technical/)Health & Safety (https://www.hbf.co.uk/library/health-safety/)
+
+
+
+
+ (https://www.hbf.co.uk/news/housing-pipeline-report-q4-2022-report-published-april-2023/)
+
+
+13 Apr, 2023
+
+
+                Housing pipeline report - Q4 2022 report - Published April 2023
+                
+             (https://www.hbf.co.uk/news/housing-pipeline-report-q4-2022-report-published-april-2023/)
+
+
+
+
+
+
+
+
+ /cbp-hrsub-inner 
+ 
+ /cbp-hrsub 
+
+
+Meetings & Events (https://www.hbf.co.uk/page/66460)
+
+
+
+
+Events (https://www.hbf.co.uk/events/)Upcoming Events (https://www.hbf.co.uk/events/)Past Events (https://www.hbf.co.uk/events/past)Committees & Working Groups (https://www.hbf.co.uk/events/committees-working-groups-home-builders-federation/)
+
+
+
+
+   (https://www.hbf.co.uk/events/hbf-agm-and-annual-lunch-2023-24052023/)
+
+24 May, 2023
+HBF AGM and Annual Lunch 2023 24.05.2023 (https://www.hbf.co.uk/events/hbf-agm-and-annual-lunch-2023-24052023/)
+
+
+
+
+
+   (https://www.hbf.co.uk/events/hbf-golf-day-2023/)
+
+12 July, 2023
+HBF Golf Day 2023 12.07.2023 (https://www.hbf.co.uk/events/hbf-golf-day-2023/)
+
+
+
+
+
+   (https://www.hbf.co.uk/events/hbf-wales-conference-dinner/)
+
+7 September, 2023
+HBF Wales Conference & Dinner (https://www.hbf.co.uk/events/hbf-wales-conference-dinner/)
+
+
+
+
+
+
+
+ /cbp-hrsub-inner 
+ 
+ /cbp-hrsub 
+
+
+Media (https://www.hbf.co.uk/page/23229)
+
+
+
+
+Latest News (https://www.hbf.co.uk/media-centre/)Press Office Contact (https://www.hbf.co.uk/media-centre/press-enquiries-home-builders-federation/)Housebuilder Magazine (https://www.hbf.co.uk/media-centre/housebuilder-magazine/).
+
+
+
+
+ (https://www.hbf.co.uk/news/hbf-seeks-sme-home-builders-views-on-challenges-to-business/)
+
+
+24 May, 2023
+
+
+                HBF seeks SME home builders' views on challenges to business
+                
+             (https://www.hbf.co.uk/news/hbf-seeks-sme-home-builders-views-on-challenges-to-business/)
+
+
+
+
+
+
+
+
+ /cbp-hrsub-inner 
+ 
+ /cbp-hrsub 
+
+
+Directory (https://www.hbf.co.uk/page/70359)
+
+
+
+
+
+Homebuilders (https://www.hbf.co.uk/directory)
+
+
+Associates (https://www.hbf.co.uk/directory/associates)
+
+
+
+ /cbp-hrsub-inner 
+ 
+ /cbp-hrsub 
+
+
+ My HBF (https://www.hbf.co.uk)
+
+
+
+
+
+Register with HBF
+It's quick and easy to register for a member account
+Register (https://www.hbf.co.uk/account/signup/)
+
+
+Login
+Already have an account?
+Login here (https://www.hbf.co.uk/account/login/)
+
+
+
+ /cbp-hrsub-inner 
+ 
+ /cbp-hrsub 
+
+
+ (https://www.hbf.co.uk)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /cbp-hrsub-inner 
+ 
+ /cbp-hrsub 
+
+
+
+
+
+
+ / codrops menu 
+
+
+
+HBF Directory
+A useful directory of our housebuilders, associate and supplier members
+
+ start product search 
+
+
+
+
+
+
+What are you looking for?
+
+
+Search
+ Search options
+
+
+
+
+
+Filter by Category
+
+
+
+
+Show All
+Homebuilders
+Associates
+Products
+Categories
+
+
+
+
+
+
+ start product search 
+
+
+
+
+
+
+
+ Nav tabs 
+
+Housebuilders
+Associates (https://www.hbf.co.uk/directory/associates)
+Products (https://www.hbf.co.uk/directory/products)
+Categories (https://www.hbf.co.uk/directory/categories)
+Search (https://www.hbf.co.uk/directory/search)
+
+ Sorting / A-Z / Search 
+
+
+
+
+
+
+  <label for="exampleInputName2">Name</label> 
+
+Order by
+Title Ascending
+Title Descending
+
+
+
+
+
+
+
+All Regions
+London
+Eastern
+Midlands
+North East
+North West
+South East
+South West
+Wales
+Yorkshire
+
+
+
+
+
+  <label for="exampleInputName2">Name</label> 
+
+
+Search
+
+
+
+
+
+
+0-9 (https://www.hbf.co.uk?filter=0)
+A (https://www.hbf.co.uk?filter=a)
+B (https://www.hbf.co.uk?filter=b)
+C (https://www.hbf.co.uk?filter=c)
+D (https://www.hbf.co.uk?filter=d)
+E (https://www.hbf.co.uk?filter=e)
+F (https://www.hbf.co.uk?filter=f)
+G (https://www.hbf.co.uk?filter=g)
+H (https://www.hbf.co.uk?filter=h)
+I (https://www.hbf.co.uk?filter=i)
+J (https://www.hbf.co.uk?filter=j)
+K (https://www.hbf.co.uk?filter=k)
+L (https://www.hbf.co.uk?filter=l)
+M (https://www.hbf.co.uk?filter=m)
+N (https://www.hbf.co.uk?filter=n)
+O (https://www.hbf.co.uk?filter=o)
+P (https://www.hbf.co.uk?filter=p)
+Q (https://www.hbf.co.uk?filter=q)
+R (https://www.hbf.co.uk?filter=r)
+S (https://www.hbf.co.uk?filter=s)
+T (https://www.hbf.co.uk?filter=t)
+U (https://www.hbf.co.uk?filter=u)
+V (https://www.hbf.co.uk?filter=v)
+W (https://www.hbf.co.uk?filter=w)
+X (https://www.hbf.co.uk?filter=x)
+Y (https://www.hbf.co.uk?filter=y)
+Z (https://www.hbf.co.uk?filter=z)
+
+
+ / Sorting / A-Z / Search 
+ Product Listing 
+
+
+
+
+3West Group Limited (https://www.hbf.co.uk/directory/homebuilders/3west-group-limited/)
+
+
+
+
+More Information (https://www.hbf.co.uk/directory/homebuilders/3west-group-limited/)
+
+
+
+
+
+
+A C Lloyd (Asset Management) Limited (https://www.hbf.co.uk/directory/homebuilders/a-c-lloyd-asset-management-limited/)
+
+
+
+
+More Information (https://www.hbf.co.uk/directory/homebuilders/a-c-lloyd-asset-management-limited/)
+
+
+
+
+
+ (https://www.hbf.co.uk/directory/homebuilders/a-r-cartwright-construction-ltd/)
+
+
+
+A R Cartwright (Construction) Ltd (https://www.hbf.co.uk/directory/homebuilders/a-r-cartwright-construction-ltd/)
+
+
+
+
+More Information (https://www.hbf.co.uk/directory/homebuilders/a-r-cartwright-construction-ltd/)
+
+
+
+
+
+ (https://www.hbf.co.uk/directory/homebuilders/abimara-ltd/)
+
+
+
+Abimara Ltd (https://www.hbf.co.uk/directory/homebuilders/abimara-ltd/)
+
+
+
+
+More Information (https://www.hbf.co.uk/directory/homebuilders/abimara-ltd/)
+
+
+
+
+
+ (https://www.hbf.co.uk/directory/homebuilders/acland-homes-ltd/)
+
+
+
+Acland Homes Ltd (https://www.hbf.co.uk/directory/homebuilders/acland-homes-ltd/)
+
+
+
+
+More Information (https://www.hbf.co.uk/directory/homebuilders/acland-homes-ltd/)
+
+
+
+
+
+ (https://www.hbf.co.uk/directory/homebuilders/aequus-developments-limited/)
+
+
+
+Aequus Developments Limited (https://www.hbf.co.uk/directory/homebuilders/aequus-developments-limited/)
+
+
+
+
+More Information (https://www.hbf.co.uk/directory/homebuilders/aequus-developments-limited/)
+
+
+
+
+
+
+AJC Developments South Ltd (https://www.hbf.co.uk/directory/homebuilders/ajc-developments-south-ltd/)
+
+
+
+
+More Information (https://www.hbf.co.uk/directory/homebuilders/ajc-developments-south-ltd/)
+
+
+
+
+
+
+Akkeri Developments Limited (https://www.hbf.co.uk/directory/homebuilders/akkeri-developments-limited/)
+
+
+
+
+More Information (https://www.hbf.co.uk/directory/homebuilders/akkeri-developments-limited/)
+
+
+
+
+
+
+Albemarle Homes Limited (https://www.hbf.co.uk/directory/homebuilders/albemarle-homes-limited/)
+
+
+
+
+More Information (https://www.hbf.co.uk/directory/homebuilders/albemarle-homes-limited/)
+
+
+
+
+
+
+Alfred Homes Limited (https://www.hbf.co.uk/directory/homebuilders/alfred-homes-limited/)
+
+
+
+
+More Information (https://www.hbf.co.uk/directory/homebuilders/alfred-homes-limited/)
+
+
+ / Product Listing 
+
+
+
+1 (https://www.hbf.co.uk?page=1)
+2 (https://www.hbf.co.uk?page=2)
+3 (https://www.hbf.co.uk?page=3)
+4 (https://www.hbf.co.uk?page=4)
+5 (https://www.hbf.co.uk?page=5)
+6 (https://www.hbf.co.uk?page=6)
+7 (https://www.hbf.co.uk?page=7)
+..
+27 (https://www.hbf.co.uk?page=27)
+
+
+»
+ (https://www.hbf.co.uk?page=2)
+
+
+
+
+
+
+ Side bar 
+ News widget 
+ News widget 
+
+
+Latest News
+
+More latest news (https://www.hbf.co.uk)
+
+
+
+
+HBF seeks SME home builders' views on challenges to business (https://www.hbf.co.uk/news/hbf-seeks-sme-home-builders-views-on-challenges-to-business/)
+24 May, 2023 
+
+
+
+Planning permissions for new home sites fall to record low – and will plunge further (https://www.hbf.co.uk/news/planning-permissions-for-new-home-sites-fall-to-record-low-and-will-plunge-further-55-local-authorities-withdraw-housing-plans-following-government-capitulation-to-nimbys/)
+8 Apr, 2023 
+
+
+
+Planning delays and rising costs crippling SME housebuilders (https://www.hbf.co.uk/news/planning-delays-and-rising-costs-crippling-the-uks-sme-housebuilders/)
+28 Mar, 2023 
+
+
+
+HBF releases 2023 Customer Satisfaction Survey Awards results (https://www.hbf.co.uk/news/hbf-releases-2023-customer-satisfaction-survey-awards-results/)
+23 Mar, 2023 
+
+
+
+River pollution crisis; New report highlights how home building ban could be lifted (https://www.hbf.co.uk/news/nutrient-neutrality-lichfields-report-unblocking-homebuilding/)
+23 Mar, 2023 
+
+
+
+HBF response: Spring Budget 2023 (https://www.hbf.co.uk/news/hbf-response-spring-budget-2023/)
+15 Mar, 2023 
+
+
+
+CSS logos and guidelines for 2023 are available to download (https://www.hbf.co.uk/news/css-logos-and-guidelines-2023-availble-download/)
+6 Mar, 2023 
+
+
+
+HBF's response to Government's NPPF consultation (https://www.hbf.co.uk/news/hbfs-response-governments-nppf-consultation/)
+3 Mar, 2023 
+
+
+
+
+
+
+ / News widget 
+ / News widget 
+
+ No banner found 
+ No banner found 
+ No banner found 
+ No banner found 
+
+ / Side bar 
+
+
+
+ Footer
+        ============================================= 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Footer Widgets
+                ============================================= 
+
+
+
+ (https://www.hbf.co.uk/)
+
+
+Contact Us (https://www.hbf.co.uk/page/23270)
+
+
+                                    Home Builders Federation
+                                    HBF House
+                                    27 Broadwall
+                                    London, SE1 9PL
+                                    
+
+  +44 (0)20 7960 1600
+                                    
+
+ 
+                                    info@hbf.co.uk (mailto:info@hbf.co.uk)
+
+
+
+
+
+Home (https://www.hbf.co.uk/)
+About (https://www.hbf.co.uk/page/70910)
+Policy & Activity (https://www.hbf.co.uk/page/22833)
+Members Area (https://www.hbf.co.uk/page/23159)
+Library (https://www.hbf.co.uk/page/23203)
+Meetings & Events (https://www.hbf.co.uk/page/66460)
+Media Centre (https://www.hbf.co.uk/page/23229)
+Member Directory (https://www.hbf.co.uk/page/70359)
+Contact Us (https://www.hbf.co.uk/page/23270)
+
+
+
+
+Tweets by @HomeBuildersFed (https://twitter.com/HomeBuildersFed)
+
+
+  /row 
+ .footer-widgets-wrap end 
+ /container 
+ Copyrights
+            ============================================= 
+
+
+
+
+                            Copyrights © 2023 All Rights Reserved by HBF
+                        
+
+
+Website Terms (https://www.hbf.co.uk/c/terms-and-conditions/)
+ | 
+Privacy Policy (https://www.hbf.co.uk/c/privacy-policy/)
+ | 
+Cookie Policy (https://www.hbf.co.uk/c/cookie-policy/)
+
+
+
+
+ #copyrights end 
+ #footer end 
+###
+"""
+
+
 """
 Given the following simplified text description of what's visible in a browser window, complete the task. If you cannot complete the task, return nothing.
 
