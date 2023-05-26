@@ -1,0 +1,4 @@
+1. Setup file works but it's a pain to manage because the prompt changes (i.e. the question) frequently. Could have another set of question lists but at some point it's a bit much
+2. When manually putting the html in the errors are aroudn it not being valid json https://www.freeformatter.com/json-escape.html#before-output use that to cleanup the formatting of the json before pasting it in 
+3. We use includes right now. Mixed bag, it's good bc it let's the model output other text which we don't mind. But if it outputted an extra link we wouldn't catch that and ideally we would want to. Custom logic feels like overkill right now
+4. Findings are that the model is very responsive to the header / context names on the page (e.g. for the uk directory it doesn't succeed because the list is named product lists and my question is about homebuilder list. I.e. it's naturally very sensitive to the inputs that it is given
