@@ -1,0 +1,8 @@
+tglist:
+  id: tglist.dev.v0
+  description: Test the model's ability to extract lists
+  metrics: [accuracy]
+tglist.dev.v0:
+  class: evals.elsuite.basic.includes:Includes
+  args:
+    samples_jsonl: tglist/samplesfinal.jsonl
